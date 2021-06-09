@@ -51,6 +51,15 @@ body{
   display:none;
 }
 
+#myHeader {
+  margin: center;
+  max-width: 75%;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #540032;
+}
+
 
 
 
@@ -63,3 +72,53 @@ body{
     height: 100vh;
   }
 }
+
+
+
+
+
+body {
+  background-color: #1d1d1d;
+  margin: 0;
+  padding: 0;
+}
+
+
+.myName {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  align-items: center;
+  max-width: 50%;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #540032;
+}
+
+.title {
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg);
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#MySVG {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+
+
+
